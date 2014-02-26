@@ -1,0 +1,1520 @@
+{
+	"expand": "projectKeys",
+	"self": "https://issues.apache.org/jira/rest/api/2/project/12311211",
+	"id": "12311211",
+	"key": "CAMEL",
+	"description": "Apache Camel is an extremely powerful declarative Java based, type-safe \u003Ca href=\"http://camel.apache.org/dsl.html\"\u003EDomain Specific Language\u003C/a\u003E POJO broker, which uses \u003Ca href=\"http://camel.apache.org/enterprise-integration-patterns.html\"\u003EEnterprise Integration Patterns\u003C/a\u003E as its foundation for integration.",
+	"lead": {
+		"self": "https://issues.apache.org/jira/rest/api/2/user?username=muellerc",
+		"key": "muellerc",
+		"name": "muellerc",
+		"avatarUrls": {
+			"16x16": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&ownerId=muellerc&avatarId=12331",
+			"24x24": "https://issues.apache.org/jira/secure/useravatar?size=small&ownerId=muellerc&avatarId=12331",
+			"32x32": "https://issues.apache.org/jira/secure/useravatar?size=medium&ownerId=muellerc&avatarId=12331",
+			"48x48": "https://issues.apache.org/jira/secure/useravatar?ownerId=muellerc&avatarId=12331"
+		},
+		"displayName": "Christian Müller",
+		"active": true
+	},
+	"components": [
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12316308",
+			"id": "12316308",
+			"name": " camel-crypto",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313944",
+			"id": "12313944",
+			"name": "bean-integration",
+			"description": "Integrating beans into Camel",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314334",
+			"id": "12314334",
+			"name": "build system",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313934",
+			"id": "12313934",
+			"name": "camel-activemq",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314380",
+			"id": "12314380",
+			"name": "camel-ahc",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12320306",
+			"id": "12320306",
+			"name": "camel-amqp",
+			"description": "Component connector for the AMQP protocol",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319673",
+			"id": "12319673",
+			"name": "camel-apns",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313954",
+			"id": "12313954",
+			"name": "camel-atom",
+			"description": "Camel Atom component",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321723",
+			"id": "12321723",
+			"name": "camel-avro",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314194",
+			"id": "12314194",
+			"name": "camel-aws",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313923",
+			"id": "12313923",
+			"name": "camel-bam",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321804",
+			"id": "12321804",
+			"name": "camel-base64",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317901",
+			"id": "12317901",
+			"name": "camel-beanio",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313968",
+			"id": "12313968",
+			"name": "camel-bindy",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313973",
+			"id": "12313973",
+			"name": "camel-blueprint",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314171",
+			"id": "12314171",
+			"name": "camel-cache",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319201",
+			"id": "12319201",
+			"name": "camel-cdi",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314324",
+			"id": "12314324",
+			"name": "camel-cometd",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313938",
+			"id": "12313938",
+			"name": "camel-core",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321209",
+			"id": "12321209",
+			"name": "camel-couchdb",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321901",
+			"id": "12321901",
+			"name": "camel-csv",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313940",
+			"id": "12313940",
+			"name": "camel-cxf",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314395",
+			"id": "12314395",
+			"name": "camel-dns",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12315336",
+			"id": "12315336",
+			"name": "camel-ejb",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319300",
+			"id": "12319300",
+			"name": "camel-elasticsearch",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321203",
+			"id": "12321203",
+			"name": "camel-facebook",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313959",
+			"id": "12313959",
+			"name": "camel-flatpack",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314339",
+			"id": "12314339",
+			"name": "camel-freemarker",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313930",
+			"id": "12313930",
+			"name": "camel-ftp",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313971",
+			"id": "12313971",
+			"name": "camel-gae",
+			"description": "Camel components for Google App Engine services.",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313924",
+			"id": "12313924",
+			"name": "camel-groovy",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12318001",
+			"id": "12318001",
+			"name": "camel-gson",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313962",
+			"id": "12313962",
+			"name": "camel-guice",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313958",
+			"id": "12313958",
+			"name": "camel-hawtdb",
+			"description": "The Camel HawtDB component",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314361",
+			"id": "12314361",
+			"name": "camel-hazelcast",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319402",
+			"id": "12319402",
+			"name": "camel-hbase",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314364",
+			"id": "12314364",
+			"name": "camel-hdfs",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313972",
+			"id": "12313972",
+			"name": "camel-hl7",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313945",
+			"id": "12313945",
+			"name": "camel-http",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321208",
+			"id": "12321208",
+			"name": "camel-http4",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313936",
+			"id": "12313936",
+			"name": "camel-ibatis",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313975",
+			"id": "12313975",
+			"name": "camel-irc",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12318002",
+			"id": "12318002",
+			"name": "camel-jackson",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313946",
+			"id": "12313946",
+			"name": "camel-jaxb",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313925",
+			"id": "12313925",
+			"name": "camel-jbi",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12316606",
+			"id": "12316606",
+			"name": "camel-jclouds",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313969",
+			"id": "12313969",
+			"name": "camel-jcr",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313966",
+			"id": "12313966",
+			"name": "camel-jdbc",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313926",
+			"id": "12313926",
+			"name": "camel-jetty",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314902",
+			"id": "12314902",
+			"name": "camel-jibx",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313928",
+			"id": "12313928",
+			"name": "camel-jms",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313974",
+			"id": "12313974",
+			"name": "camel-jmx",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313927",
+			"id": "12313927",
+			"name": "camel-jpa",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317701",
+			"id": "12317701",
+			"name": "camel-jsch",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313951",
+			"id": "12313951",
+			"name": "camel-juel",
+			"description": "Camel component supporting JUEL (http://juel.sourceforge.net/)\n",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12316602",
+			"id": "12316602",
+			"name": "camel-krati",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319677",
+			"id": "12319677",
+			"name": "camel-language",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313964",
+			"id": "12313964",
+			"name": "camel-ldap",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12320812",
+			"id": "12320812",
+			"name": "camel-leveldb",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12322313",
+			"id": "12322313",
+			"name": "camel-lucene",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313947",
+			"id": "12313947",
+			"name": "camel-mail",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313943",
+			"id": "12313943",
+			"name": "camel-mina",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317047",
+			"id": "12317047",
+			"name": "camel-mina2",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319674",
+			"id": "12319674",
+			"name": "camel-mongodb",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12318825",
+			"id": "12318825",
+			"name": "camel-mqtt",
+			"description": "Camel MQTT Component - for communicating with http://mqtt.org M2M message brokers",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314396",
+			"id": "12314396",
+			"name": "camel-mybatis",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319403",
+			"id": "12319403",
+			"name": "camel-neo4j",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313932",
+			"id": "12313932",
+			"name": "camel-netty",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321304",
+			"id": "12321304",
+			"name": "camel-netty-http",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313949",
+			"id": "12313949",
+			"name": "camel-ognl",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12315808",
+			"id": "12315808",
+			"name": "camel-printer",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313937",
+			"id": "12313937",
+			"name": "camel-quartz",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321033",
+			"id": "12321033",
+			"name": "camel-quartz2",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12316605",
+			"id": "12316605",
+			"name": "camel-quickfix",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321204",
+			"id": "12321204",
+			"name": "camel-rabbitmq",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313960",
+			"id": "12313960",
+			"name": "camel-restlet",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12315325",
+			"id": "12315325",
+			"name": "camel-rmi",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313963",
+			"id": "12313963",
+			"name": "camel-rss",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321207",
+			"id": "12321207",
+			"name": "camel-salesforce",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313942",
+			"id": "12313942",
+			"name": "camel-saxon",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313952",
+			"id": "12313952",
+			"name": "camel-scala",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313929",
+			"id": "12313929",
+			"name": "camel-script",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313961",
+			"id": "12313961",
+			"name": "camel-servlet",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12320401",
+			"id": "12320401",
+			"name": "camel-sjms",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313920",
+			"id": "12313920",
+			"name": "camel-smpp",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314172",
+			"id": "12314172",
+			"name": "camel-snmp",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314180",
+			"id": "12314180",
+			"name": "camel-soap",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317105",
+			"id": "12317105",
+			"name": "camel-solr",
+			"description": "Camel Solr component",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313939",
+			"id": "12313939",
+			"name": "camel-spring",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319902",
+			"id": "12319902",
+			"name": "camel-spring-batch",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313955",
+			"id": "12313955",
+			"name": "camel-spring-integration",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314354",
+			"id": "12314354",
+			"name": "camel-spring-ws",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314222",
+			"id": "12314222",
+			"name": "camel-sql",
+			"description": "The SQL support is added by JoSQL and is primarily used for performing SQL queries on in-memory objects. ",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317100",
+			"id": "12317100",
+			"name": "camel-ssh",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12316901",
+			"id": "12316901",
+			"name": "camel-stax",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321206",
+			"id": "12321206",
+			"name": "camel-stomp",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313950",
+			"id": "12313950",
+			"name": "camel-stream",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317102",
+			"id": "12317102",
+			"name": "camel-stringtemplate",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314271",
+			"id": "12314271",
+			"name": "camel-test",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317101",
+			"id": "12317101",
+			"name": "camel-twitter",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12320588",
+			"id": "12320588",
+			"name": "camel-validator",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313956",
+			"id": "12313956",
+			"name": "camel-velocity",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321205",
+			"id": "12321205",
+			"name": "camel-vertx",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313967",
+			"id": "12313967",
+			"name": "camel-web",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12317715",
+			"id": "12317715",
+			"name": "camel-websocket",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12321302",
+			"id": "12321302",
+			"name": "camel-xmlrpc",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313941",
+			"id": "12313941",
+			"name": "camel-xmpp",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12314210",
+			"id": "12314210",
+			"name": "camel-xslt",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313965",
+			"id": "12313965",
+			"name": "camel-xstream",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12315700",
+			"id": "12315700",
+			"name": "camel-zookeeper",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313953",
+			"id": "12313953",
+			"name": "documentation",
+			"description": "For both javadoc and the wiki documentation",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313948",
+			"id": "12313948",
+			"name": "eip",
+			"description": "Enterprise Integration Patterns",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313931",
+			"id": "12313931",
+			"name": "examples",
+			"description": "Examples and demos",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12319639",
+			"id": "12319639",
+			"name": "extra",
+			"description": "The Camel Extra Project hosted outside Apache",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313922",
+			"id": "12313922",
+			"name": "jmx",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313970",
+			"id": "12313970",
+			"name": "karaf",
+			"description": "Integration with Apache Karaf",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313921",
+			"id": "12313921",
+			"name": "osgi",
+			"description": "Anything related to OSGi with Camel",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313957",
+			"id": "12313957",
+			"name": "tests",
+			"description": "The tests module includes the integration test  and integration test for spring 2.0",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313933",
+			"id": "12313933",
+			"name": "tooling",
+			"isAssigneeTypeValid": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/component/12313935",
+			"id": "12313935",
+			"name": "website",
+			"description": "Documentation and website",
+			"isAssigneeTypeValid": false
+		}
+	],
+	"issueTypes": [
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/7",
+			"id": "7",
+			"description": "The sub-task of the issue",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/subtask_alternate.png",
+			"name": "Sub-task",
+			"subtask": true
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/1",
+			"id": "1",
+			"description": "A problem which impairs or prevents the functions of the product.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/bug.png",
+			"name": "Bug",
+			"subtask": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/4",
+			"id": "4",
+			"description": "An improvement or enhancement to an existing feature or task.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/improvement.png",
+			"name": "Improvement",
+			"subtask": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/2",
+			"id": "2",
+			"description": "A new feature of the product, which has yet to be developed.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/newfeature.png",
+			"name": "New Feature",
+			"subtask": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/3",
+			"id": "3",
+			"description": "A task that needs to be done.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/task.png",
+			"name": "Task",
+			"subtask": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/6",
+			"id": "6",
+			"description": "A new unit, integration or system test.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/requirement.png",
+			"name": "Test",
+			"subtask": false
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/5",
+			"id": "5",
+			"description": "General wishlist item.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/improvement.png",
+			"name": "Wish",
+			"subtask": false
+		}
+	],
+	"url": "http://camel.apache.org/",
+	"assigneeType": "UNASSIGNED",
+	"versions": [
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315670",
+			"id": "12315670",
+			"name": "1.0.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2007-07-02",
+			"userReleaseDate": "02/Jul/07",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315671",
+			"id": "12315671",
+			"name": "1.1.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2007-08-18",
+			"userReleaseDate": "18/Aug/07",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315672",
+			"id": "12315672",
+			"name": "1.2.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2007-10-19",
+			"userReleaseDate": "19/Oct/07",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315673",
+			"id": "12315673",
+			"name": "1.3.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2008-04-07",
+			"userReleaseDate": "07/Apr/08",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315674",
+			"id": "12315674",
+			"name": "1.4.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2008-07-22",
+			"userReleaseDate": "22/Jul/08",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315675",
+			"id": "12315675",
+			"name": "1.5.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2008-10-31",
+			"userReleaseDate": "31/Oct/08",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315676",
+			"id": "12315676",
+			"name": "1.6.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-02-16",
+			"userReleaseDate": "16/Feb/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315677",
+			"id": "12315677",
+			"name": "2.0-M1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-03-16",
+			"userReleaseDate": "16/Mar/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315678",
+			"id": "12315678",
+			"name": "1.6.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-05-18",
+			"userReleaseDate": "18/May/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315679",
+			"id": "12315679",
+			"name": "1.6.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-11-24",
+			"userReleaseDate": "24/Nov/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315680",
+			"id": "12315680",
+			"name": "1.6.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-06-03",
+			"userReleaseDate": "03/Jun/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315681",
+			"id": "12315681",
+			"name": "1.6.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-12-16",
+			"userReleaseDate": "16/Dec/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315682",
+			"id": "12315682",
+			"name": "2.0-M2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-06-15",
+			"userReleaseDate": "15/Jun/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315683",
+			"id": "12315683",
+			"name": "2.0-M3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-07-23",
+			"userReleaseDate": "23/Jul/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315684",
+			"id": "12315684",
+			"name": "2.0.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-08-22",
+			"userReleaseDate": "22/Aug/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315685",
+			"id": "12315685",
+			"name": "2.1.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2009-12-04",
+			"userReleaseDate": "04/Dec/09",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315686",
+			"id": "12315686",
+			"name": "2.2.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-02-14",
+			"userReleaseDate": "14/Feb/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315687",
+			"id": "12315687",
+			"name": "2.3.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-05-26",
+			"userReleaseDate": "26/May/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315688",
+			"id": "12315688",
+			"name": "2.4.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-07-15",
+			"userReleaseDate": "15/Jul/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315689",
+			"id": "12315689",
+			"name": "2.5.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2010-10-28",
+			"userReleaseDate": "28/Oct/10",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315690",
+			"id": "12315690",
+			"name": "2.6.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-01-29",
+			"userReleaseDate": "29/Jan/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316021",
+			"id": "12316021",
+			"name": "2.7.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-03-21",
+			"userReleaseDate": "21/Mar/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316352",
+			"id": "12316352",
+			"name": "2.7.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-04-12",
+			"userReleaseDate": "12/Apr/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316478",
+			"id": "12316478",
+			"name": "2.7.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-06-03",
+			"userReleaseDate": "03/Jun/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316520",
+			"id": "12316520",
+			"name": "2.7.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-07-19",
+			"userReleaseDate": "19/Jul/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316226",
+			"id": "12316226",
+			"name": "2.8.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-07-23",
+			"userReleaseDate": "23/Jul/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12317151",
+			"id": "12317151",
+			"name": "2.7.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-10-24",
+			"userReleaseDate": "24/Oct/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12318648",
+			"id": "12318648",
+			"name": "2.7.5",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-01-15",
+			"userReleaseDate": "15/Jan/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12317152",
+			"id": "12317152",
+			"name": "2.8.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-09-16",
+			"userReleaseDate": "16/Sep/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12317866",
+			"id": "12317866",
+			"name": "2.8.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-10-24",
+			"userReleaseDate": "24/Oct/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12318649",
+			"id": "12318649",
+			"name": "2.8.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-11-21",
+			"userReleaseDate": "21/Nov/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12319072",
+			"id": "12319072",
+			"name": "2.8.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-01-29",
+			"userReleaseDate": "29/Jan/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12319522",
+			"id": "12319522",
+			"name": "2.8.5",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-04-27",
+			"userReleaseDate": "27/Apr/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12320942",
+			"id": "12320942",
+			"name": "2.8.6",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-07-09",
+			"userReleaseDate": "09/Jul/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323329",
+			"id": "12323329",
+			"description": "No plans to release any more 2.8.x releases",
+			"name": "2.8.7",
+			"archived": true,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12316374",
+			"id": "12316374",
+			"name": "2.9.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2011-12-31",
+			"userReleaseDate": "31/Dec/11",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12319191",
+			"id": "12319191",
+			"name": "2.9.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-03-05",
+			"userReleaseDate": "05/Mar/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12320143",
+			"id": "12320143",
+			"name": "2.9.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-04-17",
+			"userReleaseDate": "17/Apr/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12320750",
+			"id": "12320750",
+			"name": "2.9.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-08-28",
+			"userReleaseDate": "28/Aug/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323142",
+			"id": "12323142",
+			"name": "2.9.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-10-15",
+			"userReleaseDate": "15/Oct/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323363",
+			"id": "12323363",
+			"name": "2.9.5",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-12-03",
+			"userReleaseDate": "03/Dec/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323592",
+			"id": "12323592",
+			"name": "2.9.6",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-03-07",
+			"userReleaseDate": "07/Mar/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324025",
+			"id": "12324025",
+			"description": "Last planned release of Camel 2.9.x",
+			"name": "2.9.7",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-04-24",
+			"userReleaseDate": "24/Apr/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12325025",
+			"id": "12325025",
+			"name": "2.9.8",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-09-20",
+			"userReleaseDate": "20/Sep/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12317612",
+			"id": "12317612",
+			"name": "2.10.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-07-01",
+			"userReleaseDate": "01/Jul/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12321259",
+			"id": "12321259",
+			"name": "2.10.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-08-28",
+			"userReleaseDate": "28/Aug/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323141",
+			"id": "12323141",
+			"name": "2.10.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-10-15",
+			"userReleaseDate": "15/Oct/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323366",
+			"id": "12323366",
+			"name": "2.10.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2012-12-06",
+			"userReleaseDate": "06/Dec/12",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323558",
+			"id": "12323558",
+			"name": "2.10.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-02-22",
+			"userReleaseDate": "22/Feb/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324024",
+			"id": "12324024",
+			"description": "planned for Summer 2013",
+			"name": "2.10.5",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-06-23",
+			"userReleaseDate": "23/Jun/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324640",
+			"id": "12324640",
+			"name": "2.10.6",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-07-03",
+			"userReleaseDate": "03/Jul/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324667",
+			"id": "12324667",
+			"description": "Last planned release of Camel 2.10.x",
+			"name": "2.10.7",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-09-19",
+			"userReleaseDate": "19/Sep/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12321695",
+			"id": "12321695",
+			"description": "planned for April 2013",
+			"name": "2.11.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-04-17",
+			"userReleaseDate": "17/Apr/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323967",
+			"id": "12323967",
+			"description": "planned for June 2013",
+			"name": "2.11.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-07-14",
+			"userReleaseDate": "14/Jul/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324654",
+			"id": "12324654",
+			"description": "planned for autumn 2013",
+			"name": "2.11.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-09-24",
+			"userReleaseDate": "24/Sep/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12325024",
+			"id": "12325024",
+			"description": "planned for end of 2013",
+			"name": "2.11.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2014-01-13",
+			"userReleaseDate": "13/Jan/14",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12325645",
+			"id": "12325645",
+			"description": "planned for Q1 2014",
+			"name": "2.11.4",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2014-02-16",
+			"userReleaseDate": "16/Feb/14",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12323968",
+			"id": "12323968",
+			"description": "planned for August 2013",
+			"name": "2.12.0",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-09-09",
+			"userReleaseDate": "09/Sep/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324857",
+			"id": "12324857",
+			"description": "planned for autumn 2013",
+			"name": "2.12.1",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-09-22",
+			"userReleaseDate": "22/Sep/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12325018",
+			"id": "12325018",
+			"description": "planned for end of 2013",
+			"name": "2.12.2",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2013-11-26",
+			"userReleaseDate": "26/Nov/13",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12325593",
+			"id": "12325593",
+			"description": "planned for Q1 2014",
+			"name": "2.12.3",
+			"archived": false,
+			"released": true,
+			"releaseDate": "2014-02-21",
+			"userReleaseDate": "21/Feb/14",
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12326177",
+			"id": "12326177",
+			"description": "planned for Q2 2014",
+			"name": "2.12.4",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12324786",
+			"id": "12324786",
+			"description": "planned for start of 2014",
+			"name": "2.13.0",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12326053",
+			"id": "12326053",
+			"description": "planned for end of Q1 2014",
+			"name": "2.13.1",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12326054",
+			"id": "12326054",
+			"name": "2.14.0",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315691",
+			"id": "12315691",
+			"description": "being planned for 2014",
+			"name": "3.0.0",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12315692",
+			"id": "12315692",
+			"description": "Future - Ideas considered to be scheduled for future releases either near term or longer",
+			"name": "Future",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		},
+		{
+			"self": "https://issues.apache.org/jira/rest/api/2/version/12326258",
+			"id": "12326258",
+			"description": "planned for Q2 2014",
+			"name": "2.11.5",
+			"archived": false,
+			"released": false,
+			"projectId": 12311211
+		}
+	],
+	"name": "Camel",
+	"roles": {
+		"Users": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10040",
+		"PMC": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10011",
+		"Committers": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10001",
+		"Administrators": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10002",
+		"Developers": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10050",
+		"ASF Members": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10150",
+		"Contributors": "https://issues.apache.org/jira/rest/api/2/project/12311211/role/10010"
+	},
+	"avatarUrls": {
+		"16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12311211&avatarId=10011",
+		"24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12311211&avatarId=10011",
+		"32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12311211&avatarId=10011",
+		"48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12311211&avatarId=10011"
+	}
+}
