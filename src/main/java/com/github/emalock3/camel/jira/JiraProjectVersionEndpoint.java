@@ -31,14 +31,14 @@ import com.atlassian.jira.rest.client.ProjectRestClient;
 
 @UriEndpoint(scheme = "jira-project-version")
 @EqualsAndHashCode(callSuper=true)
-public class JiraProjectVersionEndpoint extends AbstractJiraEndpoint {
+class JiraProjectVersionEndpoint extends AbstractJiraEndpoint {
 	
-	public JiraProjectVersionEndpoint(String endpointUri, Component component,
+	JiraProjectVersionEndpoint(String endpointUri, Component component,
 			URI baseURI) {
 		super(endpointUri, component, baseURI);
 	}
 
-	public JiraProjectVersionEndpoint(String endpointUri, Component component) {
+	JiraProjectVersionEndpoint(String endpointUri, Component component) {
 		super(endpointUri, component);
 	}
 	
