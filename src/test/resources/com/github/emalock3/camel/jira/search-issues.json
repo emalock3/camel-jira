@@ -1,0 +1,413 @@
+{
+	"expand": "schema,names",
+	"startAt": 0,
+	"maxResults": 3,
+	"total": 3,
+	"issues": [
+		{
+			"expand": "editmeta,renderedFields,transitions,changelog,operations",
+			"id": "12697727",
+			"self": "https://issues.apache.org/jira/rest/api/2/issue/12697727",
+			"key": "CAMEL-7253",
+			"fields": {
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"summary": "PGPDataFormat: NullPointerException if decryptor gets body with invalid format",
+				"issuetype": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issuetype/1",
+					"id": "1",
+					"description": "A problem which impairs or prevents the functions of the product.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/bug.png",
+					"name": "Bug",
+					"subtask": false
+				},
+				"votes": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7253/votes",
+					"votes": 0,
+					"hasVoted": false
+				},
+				"resolution": null,
+				"customfield_12310060": {
+					"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10060",
+					"value": "Unknown",
+					"id": "10060"
+				},
+				"fixVersions": [],
+				"resolutiondate": null,
+				"timespent": null,
+				"reporter": {
+					"self": "https://issues.apache.org/jira/rest/api/2/user?username=forsthofer",
+					"name": "forsthofer",
+					"emailAddress": "emc2fpf@googlemail.com",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&avatarId=10452",
+						"24x24": "https://issues.apache.org/jira/secure/useravatar?size=small&avatarId=10452",
+						"32x32": "https://issues.apache.org/jira/secure/useravatar?size=medium&avatarId=10452",
+						"48x48": "https://issues.apache.org/jira/secure/useravatar?avatarId=10452"
+					},
+					"displayName": "Franz Forsthofer",
+					"active": true
+				},
+				"aggregatetimeoriginalestimate": null,
+				"customfield_12310300": null,
+				"customfield_12310041": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10042",
+						"value": "Patch Available",
+						"id": "10042"
+					}
+				],
+				"updated": "2014-02-27T15:26:51.000+0000",
+				"created": "2014-02-27T15:26:22.000+0000",
+				"customfield_12310080": null,
+				"description": "if the PGPDataFormat gets an invalid format during the decryption process a NullPointerException is thrown.\r\n\r\nThe attached patch throws an IllegalArgumentException instead and improves further error situations if a wrong formated input is provided.",
+				"priority": {
+					"self": "https://issues.apache.org/jira/rest/api/2/priority/3",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/priorities/major.png",
+					"name": "Major",
+					"id": "3"
+				},
+				"customfield_12311120": null,
+				"customfield_12310420": "376205",
+				"duedate": null,
+				"issuelinks": [],
+				"watches": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7253/watchers",
+					"watchCount": 1,
+					"isWatching": false
+				},
+				"customfield_12310291": null,
+				"customfield_12310290": null,
+				"subtasks": [],
+				"status": {
+					"self": "https://issues.apache.org/jira/rest/api/2/status/1",
+					"description": "The issue is open and ready for the assignee to start work on it.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/statuses/open.png",
+					"name": "Open",
+					"id": "1"
+				},
+				"labels": [],
+				"workratio": -1,
+				"assignee": null,
+				"customfield_12310222": null,
+				"customfield_12310220": null,
+				"aggregatetimeestimate": null,
+				"project": {
+					"self": "https://issues.apache.org/jira/rest/api/2/project/12311211",
+					"id": "12311211",
+					"key": "CAMEL",
+					"name": "Camel",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12311211&avatarId=10011",
+						"24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12311211&avatarId=10011",
+						"32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12311211&avatarId=10011",
+						"48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12311211&avatarId=10011"
+					},
+					"projectCategory": {
+						"self": "https://issues.apache.org/jira/rest/api/2/projectCategory/10482",
+						"id": "10482",
+						"description": "",
+						"name": "Camel"
+					}
+				},
+				"versions": [],
+				"customfield_12310920": "376191",
+				"customfield_12310921": null,
+				"environment": null,
+				"timeestimate": null,
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"lastViewed": null,
+				"components": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/component/12316308",
+						"id": "12316308",
+						"name": " camel-crypto"
+					}
+				],
+				"customfield_12310310": "1.0",
+				"customfield_10010": null,
+				"timeoriginalestimate": null,
+				"aggregatetimespent": null
+			}
+		},
+		{
+			"expand": "editmeta,renderedFields,transitions,changelog,operations",
+			"id": "12697703",
+			"self": "https://issues.apache.org/jira/rest/api/2/issue/12697703",
+			"key": "CAMEL-7252",
+			"fields": {
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"summary": "  Archived should be achieved; have should be has",
+				"issuetype": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issuetype/1",
+					"id": "1",
+					"description": "A problem which impairs or prevents the functions of the product.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/bug.png",
+					"name": "Bug",
+					"subtask": false
+				},
+				"votes": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7252/votes",
+					"votes": 0,
+					"hasVoted": false
+				},
+				"resolution": null,
+				"customfield_12310060": {
+					"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10061",
+					"value": "Novice",
+					"id": "10061"
+				},
+				"fixVersions": [],
+				"resolutiondate": null,
+				"timespent": null,
+				"reporter": {
+					"self": "https://issues.apache.org/jira/rest/api/2/user?username=ronatartifact",
+					"name": "ronatartifact",
+					"emailAddress": "rwheeler@artifact-software.com",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&avatarId=10452",
+						"24x24": "https://issues.apache.org/jira/secure/useravatar?size=small&avatarId=10452",
+						"32x32": "https://issues.apache.org/jira/secure/useravatar?size=medium&avatarId=10452",
+						"48x48": "https://issues.apache.org/jira/secure/useravatar?avatarId=10452"
+					},
+					"displayName": "Ron Wheeler",
+					"active": true
+				},
+				"aggregatetimeoriginalestimate": null,
+				"customfield_12310300": null,
+				"customfield_12310041": null,
+				"updated": "2014-02-27T14:33:57.000+0000",
+				"created": "2014-02-27T14:33:57.000+0000",
+				"customfield_12310080": null,
+				"description": "On http://camel.apache.org/tutorial-jmsremoting.html, the sentence describing the Message Endpoint says \"It should be easy to send messages to the Server from the the clients. This is ***archived*** with Camels powerful Endpoint pattern that even can be more powerful combined with Spring remoting. The tutorial ***have*** clients using each kind of technique for this.\" \r\nIt probably should say \"It should be easy to send messages to the Server from the the clients. This is achieved with Camels powerful Endpoint pattern that even can be more powerful combined with Spring remoting. The tutorial has clients using each kind of technique for this.\" ",
+				"priority": {
+					"self": "https://issues.apache.org/jira/rest/api/2/priority/3",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/priorities/major.png",
+					"name": "Major",
+					"id": "3"
+				},
+				"customfield_12311120": null,
+				"customfield_12310420": "376181",
+				"duedate": null,
+				"issuelinks": [],
+				"watches": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7252/watchers",
+					"watchCount": 1,
+					"isWatching": false
+				},
+				"customfield_12310291": null,
+				"customfield_12310290": null,
+				"subtasks": [],
+				"status": {
+					"self": "https://issues.apache.org/jira/rest/api/2/status/1",
+					"description": "The issue is open and ready for the assignee to start work on it.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/statuses/open.png",
+					"name": "Open",
+					"id": "1"
+				},
+				"labels": [
+					"web-site"
+				],
+				"workratio": -1,
+				"assignee": null,
+				"customfield_12310222": null,
+				"customfield_12310220": null,
+				"aggregatetimeestimate": null,
+				"project": {
+					"self": "https://issues.apache.org/jira/rest/api/2/project/12311211",
+					"id": "12311211",
+					"key": "CAMEL",
+					"name": "Camel",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12311211&avatarId=10011",
+						"24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12311211&avatarId=10011",
+						"32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12311211&avatarId=10011",
+						"48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12311211&avatarId=10011"
+					},
+					"projectCategory": {
+						"self": "https://issues.apache.org/jira/rest/api/2/projectCategory/10482",
+						"id": "10482",
+						"description": "",
+						"name": "Camel"
+					}
+				},
+				"versions": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/version/12325593",
+						"id": "12325593",
+						"description": "planned for Q1 2014",
+						"name": "2.12.3",
+						"archived": false,
+						"released": true,
+						"releaseDate": "2014-02-21"
+					}
+				],
+				"customfield_12310920": "376167",
+				"customfield_12310921": null,
+				"environment": "All",
+				"timeestimate": null,
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"lastViewed": null,
+				"components": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/component/12313935",
+						"id": "12313935",
+						"name": "website",
+						"description": "Documentation and website"
+					}
+				],
+				"customfield_12310310": "0.0",
+				"customfield_10010": null,
+				"timeoriginalestimate": null,
+				"aggregatetimespent": null
+			}
+		},
+		{
+			"expand": "editmeta,renderedFields,transitions,changelog,operations",
+			"id": "12697694",
+			"self": "https://issues.apache.org/jira/rest/api/2/issue/12697694",
+			"key": "CAMEL-7251",
+			"fields": {
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"summary": "SqlProducer call twice the getResultSet on the PreparedStatement =\u003E This cause issue with HSQLDB (NPE)",
+				"issuetype": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issuetype/1",
+					"id": "1",
+					"description": "A problem which impairs or prevents the functions of the product.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/bug.png",
+					"name": "Bug",
+					"subtask": false
+				},
+				"votes": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7251/votes",
+					"votes": 0,
+					"hasVoted": false
+				},
+				"resolution": null,
+				"customfield_12310060": {
+					"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10060",
+					"value": "Unknown",
+					"id": "10060"
+				},
+				"fixVersions": [],
+				"resolutiondate": null,
+				"timespent": null,
+				"reporter": {
+					"self": "https://issues.apache.org/jira/rest/api/2/user?username=boretti",
+					"name": "boretti",
+					"emailAddress": "mathieu.boretti@gmail.com",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&avatarId=10452",
+						"24x24": "https://issues.apache.org/jira/secure/useravatar?size=small&avatarId=10452",
+						"32x32": "https://issues.apache.org/jira/secure/useravatar?size=medium&avatarId=10452",
+						"48x48": "https://issues.apache.org/jira/secure/useravatar?avatarId=10452"
+					},
+					"displayName": "Mathieu Boretti",
+					"active": true
+				},
+				"aggregatetimeoriginalestimate": null,
+				"customfield_12310300": null,
+				"customfield_12310041": null,
+				"updated": "2014-02-27T14:10:40.000+0000",
+				"created": "2014-02-27T14:10:40.000+0000",
+				"customfield_12310080": null,
+				"description": "The SqlProducer class use the following lines of code :\r\n\r\nResultSet rs = ps.getResultSet();\r\n                        SqlOutputType outputType = getEndpoint().getOutputType();\r\n                        log.trace(\"Got result list from query: {}, outputType={}\", rs, outputType);\r\n                        if (outputType == SqlOutputType.SelectList) {\r\n                            List\u003CMap\u003CString, Object\u003E\u003E data = getEndpoint().queryForList(ps.getResultSet());\r\n                           .................................\r\n                        } else if (outputType == SqlOutputType.SelectOne) {\r\n                            Object data = getEndpoint().queryForObject(ps.getResultSet());\r\n                            .................................\r\n                        } else {\r\n                            throw new IllegalArgumentException(\"Invalid outputType=\" + outputType);\r\n                        }\r\n\r\nThe problem is that the ResultSet is retrieved at the start, and then only used for the log. Later, when the result set is required, a new call to getResultSet is done. It is an issue with HSQL DB (tested with version 2.3.0 and 2.3.2 of HSQL DB), which in this case return null for the second call.\r\n\r\nAs the ResultSet is already available in a variable \"rs\", I would recommand to use this variable to replace the two last call to ps.getResultSet().\r\n\r\nThanks",
+				"priority": {
+					"self": "https://issues.apache.org/jira/rest/api/2/priority/3",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/priorities/major.png",
+					"name": "Major",
+					"id": "3"
+				},
+				"customfield_12311120": null,
+				"customfield_12310420": "376172",
+				"duedate": null,
+				"issuelinks": [],
+				"watches": {
+					"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7251/watchers",
+					"watchCount": 1,
+					"isWatching": false
+				},
+				"customfield_12310291": null,
+				"customfield_12310290": null,
+				"subtasks": [],
+				"status": {
+					"self": "https://issues.apache.org/jira/rest/api/2/status/1",
+					"description": "The issue is open and ready for the assignee to start work on it.",
+					"iconUrl": "https://issues.apache.org/jira/images/icons/statuses/open.png",
+					"name": "Open",
+					"id": "1"
+				},
+				"labels": [],
+				"workratio": -1,
+				"assignee": null,
+				"customfield_12310222": null,
+				"customfield_12310220": null,
+				"aggregatetimeestimate": null,
+				"project": {
+					"self": "https://issues.apache.org/jira/rest/api/2/project/12311211",
+					"id": "12311211",
+					"key": "CAMEL",
+					"name": "Camel",
+					"avatarUrls": {
+						"16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12311211&avatarId=10011",
+						"24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12311211&avatarId=10011",
+						"32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12311211&avatarId=10011",
+						"48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12311211&avatarId=10011"
+					},
+					"projectCategory": {
+						"self": "https://issues.apache.org/jira/rest/api/2/projectCategory/10482",
+						"id": "10482",
+						"description": "",
+						"name": "Camel"
+					}
+				},
+				"versions": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/version/12325593",
+						"id": "12325593",
+						"description": "planned for Q1 2014",
+						"name": "2.12.3",
+						"archived": false,
+						"released": true,
+						"releaseDate": "2014-02-21"
+					}
+				],
+				"customfield_12310920": "376158",
+				"customfield_12310921": null,
+				"environment": null,
+				"timeestimate": null,
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"lastViewed": null,
+				"components": [
+					{
+						"self": "https://issues.apache.org/jira/rest/api/2/component/12314222",
+						"id": "12314222",
+						"name": "camel-sql",
+						"description": "The SQL support is added by JoSQL and is primarily used for performing SQL queries on in-memory objects. "
+					}
+				],
+				"customfield_12310310": "0.0",
+				"customfield_10010": null,
+				"timeoriginalestimate": null,
+				"aggregatetimespent": null
+			}
+		}
+	]
+}

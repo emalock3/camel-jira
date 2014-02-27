@@ -26,7 +26,7 @@ public class JiraProjectVersionComponentTest extends CamelTestSupport {
 	public static void beforeClass() throws IOException, URISyntaxException {
 		SLF4JBridgeHandler.removeHandlersForRootLogger();
 		SLF4JBridgeHandler.install();
-		SERVER = new StaticJsonFileServer("project-version.json");
+		SERVER = new StaticJsonFileServer(StaticJsonFileServer.from("project-version.json", "/*"));
 		SERVER.start();
 	}
 	

@@ -1,0 +1,429 @@
+{
+	"expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+	"id": "12697727",
+	"self": "https://issues.apache.org/jira/rest/api/latest/issue/12697727",
+	"key": "CAMEL-7253",
+	"fields": {
+		"progress": {
+			"progress": 0,
+			"total": 0
+		},
+		"summary": "PGPDataFormat: NullPointerException if decryptor gets body with invalid format",
+		"timetracking": {},
+		"issuetype": {
+			"self": "https://issues.apache.org/jira/rest/api/2/issuetype/1",
+			"id": "1",
+			"description": "A problem which impairs or prevents the functions of the product.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/issuetypes/bug.png",
+			"name": "Bug",
+			"subtask": false
+		},
+		"votes": {
+			"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7253/votes",
+			"votes": 0,
+			"hasVoted": false
+		},
+		"resolution": null,
+		"customfield_12310060": {
+			"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10060",
+			"value": "Unknown",
+			"id": "10060"
+		},
+		"fixVersions": [],
+		"resolutiondate": null,
+		"timespent": null,
+		"reporter": {
+			"self": "https://issues.apache.org/jira/rest/api/2/user?username=forsthofer",
+			"name": "forsthofer",
+			"emailAddress": "emc2fpf@googlemail.com",
+			"avatarUrls": {
+				"16x16": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&avatarId=10452",
+				"24x24": "https://issues.apache.org/jira/secure/useravatar?size=small&avatarId=10452",
+				"32x32": "https://issues.apache.org/jira/secure/useravatar?size=medium&avatarId=10452",
+				"48x48": "https://issues.apache.org/jira/secure/useravatar?avatarId=10452"
+			},
+			"displayName": "Franz Forsthofer",
+			"active": true
+		},
+		"aggregatetimeoriginalestimate": null,
+		"customfield_12310300": null,
+		"customfield_12310041": [
+			{
+				"self": "https://issues.apache.org/jira/rest/api/2/customFieldOption/10042",
+				"value": "Patch Available",
+				"id": "10042"
+			}
+		],
+		"updated": "2014-02-27T15:26:51.447+0000",
+		"created": "2014-02-27T15:26:22.149+0000",
+		"customfield_12310080": null,
+		"description": "if the PGPDataFormat gets an invalid format during the decryption process a NullPointerException is thrown.\r\n\r\nThe attached patch throws an IllegalArgumentException instead and improves further error situations if a wrong formated input is provided.",
+		"priority": {
+			"self": "https://issues.apache.org/jira/rest/api/2/priority/3",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/priorities/major.png",
+			"name": "Major",
+			"id": "3"
+		},
+		"customfield_12311120": null,
+		"customfield_12310420": "376205",
+		"duedate": null,
+		"issuelinks": [],
+		"watches": {
+			"self": "https://issues.apache.org/jira/rest/api/2/issue/CAMEL-7253/watchers",
+			"watchCount": 1,
+			"isWatching": false
+		},
+		"worklog": {
+			"startAt": 0,
+			"maxResults": 20,
+			"total": 0,
+			"worklogs": []
+		},
+		"customfield_12310291": null,
+		"customfield_12310290": null,
+		"subtasks": [],
+		"status": {
+			"self": "https://issues.apache.org/jira/rest/api/2/status/1",
+			"description": "The issue is open and ready for the assignee to start work on it.",
+			"iconUrl": "https://issues.apache.org/jira/images/icons/statuses/open.png",
+			"name": "Open",
+			"id": "1"
+		},
+		"labels": [],
+		"workratio": -1,
+		"assignee": null,
+		"customfield_12310222": null,
+		"customfield_12310220": null,
+		"aggregatetimeestimate": null,
+		"project": {
+			"self": "https://issues.apache.org/jira/rest/api/2/project/12311211",
+			"id": "12311211",
+			"key": "CAMEL",
+			"name": "Camel",
+			"avatarUrls": {
+				"16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12311211&avatarId=10011",
+				"24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12311211&avatarId=10011",
+				"32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12311211&avatarId=10011",
+				"48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12311211&avatarId=10011"
+			},
+			"projectCategory": {
+				"self": "https://issues.apache.org/jira/rest/api/2/projectCategory/10482",
+				"id": "10482",
+				"description": "",
+				"name": "Camel"
+			}
+		},
+		"versions": [],
+		"customfield_12310920": "376191",
+		"customfield_12310921": null,
+		"environment": null,
+		"timeestimate": null,
+		"aggregateprogress": {
+			"progress": 0,
+			"total": 0
+		},
+		"lastViewed": null,
+		"components": [
+			{
+				"self": "https://issues.apache.org/jira/rest/api/2/component/12316308",
+				"id": "12316308",
+				"name": " camel-crypto"
+			}
+		],
+		"customfield_12310310": "1.0",
+		"comment": {
+			"startAt": 0,
+			"maxResults": 0,
+			"total": 0,
+			"comments": []
+		},
+		"customfield_10010": null,
+		"timeoriginalestimate": null,
+		"aggregatetimespent": null
+	},
+	"names": {
+		"progress": "Progress",
+		"summary": "Summary",
+		"timetracking": "Time Tracking",
+		"issuetype": "Issue Type",
+		"votes": "Votes",
+		"resolution": "Resolution",
+		"customfield_12310060": "Estimated Complexity",
+		"fixVersions": "Fix Version/s",
+		"resolutiondate": "Resolved",
+		"timespent": "Time Spent",
+		"reporter": "Reporter",
+		"aggregatetimeoriginalestimate": "Σ Original Estimate",
+		"customfield_12310300": "Release Version History",
+		"customfield_12310041": "Patch Info",
+		"updated": "Updated",
+		"created": "Created",
+		"customfield_12310080": "Regression",
+		"description": "Description",
+		"priority": "Priority",
+		"customfield_12311120": "Epic Link",
+		"customfield_12310420": "Global Rank",
+		"duedate": "Due Date",
+		"issuelinks": "Linked Issues",
+		"watches": "Watchers",
+		"worklog": "Log Work",
+		"customfield_12310291": "Epic/Theme",
+		"customfield_12310290": "Flagged",
+		"subtasks": "Sub-Tasks",
+		"status": "Status",
+		"labels": "Labels",
+		"workratio": "Work Ratio",
+		"assignee": "Assignee",
+		"customfield_12310222": "Time in Status",
+		"customfield_12310220": "Date of First Response",
+		"aggregatetimeestimate": "Σ Remaining Estimate",
+		"project": "Project",
+		"versions": "Affects Version/s",
+		"customfield_12310920": "Rank",
+		"customfield_12310921": "Sprint",
+		"environment": "Environment",
+		"timeestimate": "Remaining Estimate",
+		"aggregateprogress": "Σ Progress",
+		"lastViewed": "Last Viewed",
+		"components": "Component/s",
+		"customfield_12310310": "Attachment count",
+		"comment": "Comment",
+		"customfield_10010": "Bugzilla Id",
+		"timeoriginalestimate": "Original Estimate",
+		"aggregatetimespent": "Σ Time Spent"
+	},
+	"schema": {
+		"progress": {
+			"type": "progress",
+			"system": "progress"
+		},
+		"summary": {
+			"type": "string",
+			"system": "summary"
+		},
+		"timetracking": {
+			"type": "timetracking",
+			"system": "timetracking"
+		},
+		"issuetype": {
+			"type": "issuetype",
+			"system": "issuetype"
+		},
+		"votes": {
+			"type": "array",
+			"items": "votes",
+			"system": "votes"
+		},
+		"resolution": {
+			"type": "resolution",
+			"system": "resolution"
+		},
+		"customfield_12310060": {
+			"type": "string",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+			"customId": 12310060
+		},
+		"fixVersions": {
+			"type": "array",
+			"items": "version",
+			"system": "fixVersions"
+		},
+		"resolutiondate": {
+			"type": "datetime",
+			"system": "resolutiondate"
+		},
+		"timespent": {
+			"type": "number",
+			"system": "timespent"
+		},
+		"reporter": {
+			"type": "user",
+			"system": "reporter"
+		},
+		"aggregatetimeoriginalestimate": {
+			"type": "number",
+			"system": "aggregatetimeoriginalestimate"
+		},
+		"customfield_12310300": {
+			"type": "version",
+			"custom": "com.pyxis.greenhopper.jira:greenhopper-releasedmultiversionhistory",
+			"customId": 12310300
+		},
+		"customfield_12310041": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+			"customId": 12310041
+		},
+		"updated": {
+			"type": "datetime",
+			"system": "updated"
+		},
+		"created": {
+			"type": "datetime",
+			"system": "created"
+		},
+		"customfield_12310080": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+			"customId": 12310080
+		},
+		"description": {
+			"type": "string",
+			"system": "description"
+		},
+		"priority": {
+			"type": "priority",
+			"system": "priority"
+		},
+		"customfield_12311120": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+			"customId": 12311120
+		},
+		"customfield_12310420": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.pyxis.greenhopper.jira:gh-global-rank",
+			"customId": 12310420
+		},
+		"duedate": {
+			"type": "date",
+			"system": "duedate"
+		},
+		"issuelinks": {
+			"type": "array",
+			"items": "issuelinks",
+			"system": "issuelinks"
+		},
+		"watches": {
+			"type": "array",
+			"items": "watches",
+			"system": "watches"
+		},
+		"worklog": {
+			"type": "array",
+			"items": "worklog",
+			"system": "worklog"
+		},
+		"customfield_12310291": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:labels",
+			"customId": 12310291
+		},
+		"customfield_12310290": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+			"customId": 12310290
+		},
+		"subtasks": {
+			"type": "array",
+			"items": "issuelinks",
+			"system": "subtasks"
+		},
+		"status": {
+			"type": "status",
+			"system": "status"
+		},
+		"labels": {
+			"type": "array",
+			"items": "string",
+			"system": "labels"
+		},
+		"workratio": {
+			"type": "number",
+			"system": "workratio"
+		},
+		"assignee": {
+			"type": "user",
+			"system": "assignee"
+		},
+		"customfield_12310222": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.ext.charting:timeinstatus",
+			"customId": 12310222
+		},
+		"customfield_12310220": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.ext.charting:firstresponsedate",
+			"customId": 12310220
+		},
+		"aggregatetimeestimate": {
+			"type": "number",
+			"system": "aggregatetimeestimate"
+		},
+		"project": {
+			"type": "project",
+			"system": "project"
+		},
+		"versions": {
+			"type": "array",
+			"items": "version",
+			"system": "versions"
+		},
+		"customfield_12310920": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.pyxis.greenhopper.jira:gh-global-rank",
+			"customId": 12310920
+		},
+		"customfield_12310921": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.pyxis.greenhopper.jira:gh-sprint",
+			"customId": 12310921
+		},
+		"environment": {
+			"type": "string",
+			"system": "environment"
+		},
+		"timeestimate": {
+			"type": "number",
+			"system": "timeestimate"
+		},
+		"aggregateprogress": {
+			"type": "progress",
+			"system": "aggregateprogress"
+		},
+		"lastViewed": {
+			"type": "datetime",
+			"system": "lastViewed"
+		},
+		"components": {
+			"type": "array",
+			"items": "component",
+			"system": "components"
+		},
+		"customfield_12310310": {
+			"type": "array",
+			"items": "string",
+			"custom": "com.atlassian.jira.toolkit:attachments",
+			"customId": 12310310
+		},
+		"comment": {
+			"type": "array",
+			"items": "comment",
+			"system": "comment"
+		},
+		"customfield_10010": {
+			"type": "number",
+			"custom": "com.atlassian.jira.plugin.system.customfieldtypes:importid",
+			"customId": 10010
+		},
+		"timeoriginalestimate": {
+			"type": "number",
+			"system": "timeoriginalestimate"
+		},
+		"aggregatetimespent": {
+			"type": "number",
+			"system": "aggregatetimespent"
+		}
+	},
+	"transitions": []
+}
