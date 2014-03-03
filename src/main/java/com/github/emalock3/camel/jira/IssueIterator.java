@@ -40,6 +40,10 @@ class IssueIterator implements Iterator<Issue> {
 	private int currentPos = 0;
 	private int total;
 	
+	IssueIterator(JiraRestClient client, String projectKey) {
+		this(client, projectKey, null, DEFAULT_BUFFER_SIZE);
+	}
+	
 	IssueIterator(JiraRestClient client, String projectKey, String fixVersionId) {
 		this(client, projectKey, fixVersionId, DEFAULT_BUFFER_SIZE);
 	}
@@ -48,18 +52,24 @@ class IssueIterator implements Iterator<Issue> {
 		searchClient = client.getSearchClient();
 		issueClient = client.getIssueClient();
 		this.bufferSize = bufferSize;
-		jql = String.format("project = %s AND fixVersion = %s order by updated desc", projectKey, fixVersionId);
+		if (fixVersionId == null || fixVersionId.isEmpty()) {
+			jql = String.format(
+					"project = %s order by updated desc", projectKey);
+		} else {
+			jql = String.format("project = %s AND fixVersion = %s order by updated desc", 
+					projectKey, fixVersionId);
+		}
 		updateSearchResult();
 	}
 	
-	private void updateSearchResult() {
+	private synchronized void updateSearchResult() {
 		SearchResult searchResult = searchClient.searchJql(jql, bufferSize, currentPos, monitor);
 		total = searchResult.getTotal();
 		currentIterator = searchResult.getIssues().iterator();
 	}
 	
 	@Override
-	public boolean hasNext() {
+	public synchronized boolean hasNext() {
 		if (currentIterator.hasNext()) {
 			return true;
 		}
@@ -71,7 +81,7 @@ class IssueIterator implements Iterator<Issue> {
 	}
 
 	@Override
-	public Issue next() {
+	public synchronized Issue next() {
 		BasicIssue basicIssue = currentIterator.next();
 		currentPos++;
 		return issueClient.getIssue(basicIssue.getKey(), monitor);
