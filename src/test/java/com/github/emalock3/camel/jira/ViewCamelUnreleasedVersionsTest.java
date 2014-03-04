@@ -15,14 +15,14 @@ public class ViewCamelUnreleasedVersionsTest {
 			public void configure() throws Exception {
 				from("direct:start")
 					.to("jira-project-version:CAMEL?baseURI=https://issues.apache.org/jira")
-					.split(body())
-						.filter(simple("${body.isReleased} == false && ${body.isArchived} == false")).log("${body.name}").end()
-					.end()
 					.sort(body(), new Comparator<Version>() {
 						public int compare(Version o1, Version o2) {
 							return o1.getName().compareTo(o2.getName());
 						}
 					})
+					.split(body())
+						.filter(simple("${body.isReleased} == false && ${body.isArchived} == false")).log("${body.name}").end()
+					.end()
 					.log("end");
 			}
 		});
